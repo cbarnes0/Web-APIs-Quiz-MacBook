@@ -9,6 +9,7 @@
     --primary-color: #cc00cc;
     --secondary-color: #ff00c8;
     --tertiary-color: #aaaaaa;
+    --wrong-color: rgb(180, 20, 20);
     --white-color: #ffffff;
     --correct-color: #6b8e23;
     --background-color: rgb(233, 233, 233);
@@ -107,7 +108,7 @@
   }
   
   .btn.wrong {
-    background-color: var(--tertiary-color);
+    background-color: var(--wrong-color);
   }
   
   /* Wrapper for buttons */
