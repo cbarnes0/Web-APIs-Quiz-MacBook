@@ -119,7 +119,7 @@ function selectAnswer(e) {
     if (correct) {
         checkAnswerEl.innerHTML = "You got it right!";
     } else {
-        checkAnswerEl.innerHTML = "Sorry that was not the correct answer.";
+        checkAnswerEl.innerHTML = "Wrong!";
         if (timeLeft <= 10) {
             timeLeft = 0;
         } else {
